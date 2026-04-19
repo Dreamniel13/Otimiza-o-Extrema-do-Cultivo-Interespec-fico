@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.seusite.com/sitemap.xml
+Sitemap: https://dreamniel13.github.io/Otimiza-o-Extrema-do-Cultivo-Interespec-fico/
