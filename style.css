@@ -13,23 +13,23 @@ a, a:visited {
     scroll-behavior: smooth;
 }
 /* Menu de navegação fixo */
-#menu-navegacao {
+menu-navegacao {
     position: static;
     width: 100%;
          background: #1565c0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
-#menu-navegacao ul {
+menu-navegacao ul {
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0.5em 0;
     list-style: none;
 }
-#menu-navegacao li {
+menu-navegacao li {
     margin: 0 1em;
 }
-#menu-navegacao a {
+menu-navegacao a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -38,7 +38,7 @@ a, a:visited {
     display: inline-block;
     box-shadow: 0 0 0 0 #90caf9;
 }
-#menu-navegacao a:hover {
+menu-navegacao a:hover {
     color: #90caf9;
     transform: scale(1.12);
     box-shadow: 0 4px 16px 0 #90caf9;
@@ -47,7 +47,7 @@ body {
     padding-top: 0;
 }
 /* Botão de voltar ao topo */
-#btn-topo {
+btn-topo {
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -65,7 +65,7 @@ body {
         transition: background 0.2s, box-shadow 0.3s, transform 0.3s;
         animation: btn-glow 1.5s infinite alternate;
 }
-#btn-topo:hover {
+btn-topo:hover {
     background: #0d47a1;
     box-shadow: 0 0 32px 8px #90caf9, 0 2px 8px rgba(0,0,0,0.2);
 }
@@ -79,11 +79,11 @@ body {
     }
 }
 }
-#btn-topo:active {
+btn-topo:active {
     transform: scale(0.92);
 }
 
-#btn-topo:hover {
+btn-topo:hover {
     background: #0d47a1;
 }
 
