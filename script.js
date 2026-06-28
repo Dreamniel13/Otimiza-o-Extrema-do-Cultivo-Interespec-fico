@@ -47,9 +47,9 @@ btn.style.display = 'none';
 window.onscroll = function() {
 	// Mostrar botão ao rolar
 	if (document.documentElement.scrollTop > 200) {
-		btn.style.display = 'block';
+		btn-topo.style.display = 'block';
 	} else {
-		btn.style.display = 'none';
+		btn-topo.style.display = 'none';
 	}
 	// Destacar seção visível
 	document.querySelectorAll('section').forEach(sec => {
