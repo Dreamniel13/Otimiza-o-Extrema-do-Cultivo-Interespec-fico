@@ -46,26 +46,60 @@ menu-navegacao a:hover {
 body {
     padding-top: 0;
 }
+/* Menu de navegação fixo */
+#menu-navegacao { /* Com # aqui */
+    position: static;
+    width: 100%;
+    background: #1565c0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+#menu-navegacao ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    list-style: none;
+}
+#menu-navegacao li {
+    margin: 0 1em;
+}
+#menu-navegacao a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    transition: color 0.5s cubic-bezier(.4,0,.2,1), box-shadow 0.5s cubic-bezier(.4,0,.2,1), transform 0.5s cubic-bezier(.4,0,.2,1);
+    display: inline-block;
+    box-shadow: 0 0 0 0 #90caf9;
+}
+#menu-navegacao a:hover {
+    color: #90caf9;
+    transform: scale(1.12);
+    box-shadow: 0 4px 16px 0 #90caf9;
+}
+body {
+    padding-top: 0;
+}
 /* Botão de voltar ao topo */
-btn-topo {
+#btn-topo { /* Com # aqui */
     position: fixed;
     bottom: 30px;
     right: 30px;
     z-index: 1000;
-        background: #1976d2;
-        color: #fff;
-        border: none;
-        border-radius: 50%;
-        width: 45px;
-        height: 45px;
-        font-size: 1.5em;
-        cursor: pointer;
-        box-shadow: 0 0 16px 4px #42a5f5, 0 2px 8px rgba(0,0,0,0.2);
-        display: none;
-        transition: background 0.2s, box-shadow 0.3s, transform 0.3s;
-        animation: btn-glow 1.5s infinite alternate;
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 1.5em;
+    cursor: pointer;
+    box-shadow: 0 0 16px 4px #42a5f5, 0 2px 8px rgba(0,0,0,0.2);
+    display: none;
+    transition: background 0.2s, box-shadow 0.3s, transform 0.3s;
+    animation: btn-glow 1.5s infinite alternate;
 }
-btn-topo:hover {
+#btn-topo:hover { /* Com # aqui */
     background: #0d47a1;
     box-shadow: 0 0 32px 8px #90caf9, 0 2px 8px rgba(0,0,0,0.2);
 }
@@ -77,11 +111,16 @@ btn-topo:hover {
     100% {
         box-shadow: 0 0 24px 8px #90caf9, 0 2px 8px rgba(0,0,0,0.2);
     }
-}
-}
-btn-topo:active {
+} /* Chave extra removida daqui! */
+
+#btn-topo:active { /* Com # aqui */
     transform: scale(0.92);
 }
+
+#btn-topo:hover { /* Com # aqui */
+    background: #0d47a1;
+}
+
 
 btn-topo:hover {
     background: #0d47a1;
